@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>research profile</title>
+    <title>research-profile</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/reset.css">
 </head>
@@ -16,7 +16,7 @@
             <a href="https://www.linkedin.com/" target="_blank" class="icon">VISION LAB</a>
             <ul class="nav-items">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Research Interest</a></li>
+                <li><a href="#research-areas">Research Interest</a></li>
                 <li><a href="#">Lab Members</a></li>
                 <li><a href="#">Publications</a></li>
                 <li><a href="#">Contact</a></li>
@@ -29,8 +29,52 @@
         </div>
     </header>
 
+    <section>
+        <form action="" class="forms">
 
-    <section class="section1">
+            <div class="inputfield">
+                <label for="destination">DESTINATION</label>
+                <input type="text" name="destination" id="" placeholder="Where do you live?">
+            </div>
+    
+            <div class="inputfield">
+                <label for="checkin">CHECK IN</label>
+                <input type="date" name="check-in" id="">
+            </div >
+    
+            <div class="inputfield">
+                <label for="checkout">CHECKOUT</label>
+                <input type="date" name="destination" id="">
+            </div>
+    
+            <div class="inputfield">
+                <label for="adults">ADULT</label>
+               <select name="adults" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+               </select>
+            </div>
+    
+            <div class="inputfield">
+                <label for="children">CHILDREN</label>
+                <select name="adults" id="">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                   </select>
+            </div>
+    
+        </form>
+    
+    </section>
+
+    </section>
+    <section class="section1" id="research-areas">
 
         <div class="section1-text">
             <h1>Unlocking the Future of Medicine</h1>
@@ -45,7 +89,7 @@
             <div class="drug-discovery">
               <p>Efficacy of Drugs</p>
                 <h2>Drug Discovery</h2>
-                <button>
+                <button class="button">
                     Algorithms
                 </button>
             </div>
@@ -53,29 +97,27 @@
             <div class="genomics">
                 <p>Genomic Data</p>
                 <h2>Genomics</h2>
-                <button> Algorithms </button>
+                <button class="button"> Algorithms </button>
             </div>
 
 
             <div class="proteomics">
                 <p>Proteomic Data</p>
                 <h2>Proteomics</h2>
-                <button>Algorithms</button>
+                <button class="button">Algorithms</button>
             </div>
 
         </div>
     </section>
 
-
-
-
-
-
-    </div>
-    <div class="section2-bg">
-
-    </div>
+    <section class="bg">
+        <div class="package">
+            <h1>MALDIVES DELUXE PACKAGE</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt inventore quam natus dignissimos cumque doloremque quasi quisquam iusto. Assumenda eum ab corporis vel? Blanditiis eum, neque a quo facilis accusantium!</p>
+            <button>SEE MORE</button>
+        </div>
     </section>
+
 </body>
 
 </html>
